@@ -1,0 +1,24 @@
+h1 {
+  color: red;
+  font-size: 48px;
+  text-align: center;
+  font-weight: normal;
+  text-decoration: line-through;
+} 
+  /* ②text-alignのプロパティはleftで左に、centerで中央に行を揃える
+  また、font-weightで文字の太さを変え、普通h1は太字pは細字となるが、h１をnormalにし、pをboldにすると逆になる */
+
+
+p {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+/* ③線を消したりつけたりするには、text-decorationのプロパティを使う
+line-throughと入れると文字を消し、underlineはアンダーラインでnoneは線を消す */
+
+
+
